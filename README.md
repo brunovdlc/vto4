@@ -23,11 +23,11 @@
 			<div class="reloj">
 				<p id="horas" class="horas">4</p>
 				<p>:</p>
-				<p id="minutos" class="minutos">59</p>
+				<p id="minutos" class="minutos">57</p>
 				<p>:</p>
 				<div class="caja-segundos">
 					<p id="ampm" class="ampm">PM</p>
-					<p id="segundos" class="segundos">24</p>
+					<p id="segundos" class="segundos">50</p>
 				</div>
 			</div>
 		</div>
@@ -67,8 +67,8 @@
       </path>
     </pattern>
   </defs>
-  <text text-anchor="middle" x="12" y="20" font-size="5" fill="url(#wave)" fill-opacity="1">CONCOURSES</text>
-  <text text-anchor="middle" x="12" y="20" font-size="5" fill="url(#gradient)" fill-opacity="0.15">CONCOURSES</text>
+  <text text-anchor="middle" x="12" y="20" font-size="5" fill="url(#wave)" fill-opacity="1">VTOMIX</text>
+  <text text-anchor="middle" x="12" y="20" font-size="5" fill="url(#gradient)" fill-opacity="0.15">VTO</text>
    
   </svg>
    </svg>
@@ -85,7 +85,7 @@
 
 
 body {
-	background:url(https://i.imgur.com/p5fbcwy.jpg) #000010;
+	background:url(https://i.imgur.com/16Tt1VU.png) #000010;
 	background-size:cover;
     color:#fff;
 	font-size: 16px;
