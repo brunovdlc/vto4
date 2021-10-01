@@ -6229,7 +6229,7 @@ body {
         } else if (count === 3) {
             $('body').css({'background-image': 'url(https://i.imgur.com/EtWeF7h.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
         } else if (count === 4) {
-            $('body').css({'background-image': 'url(https://i.imgur.com/P8Pq0u8.png?1)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
+            $('body').css({'background-image': 'url(https://i.imgur.com/lJkDriH.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
         } else if (count === 5) {
             $('body').css({'background-image': 'url(https://i.imgur.com/LXHzMBa.png)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
         } else if (count === 6) {
