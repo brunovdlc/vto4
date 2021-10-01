@@ -6155,6 +6155,10 @@ body {
 </head>
 
 <head>
+
+  
+<!-- Fundos backgound -->
+
 <style>
 body {
     background-image: linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
@@ -6223,19 +6227,19 @@ body {
         if (count === 0) {
             $('body').css({'background-image': 'linear-gradient( 110.6deg,  rgba(0,0,0,1) 7%, rgba(0,159,222,1) 47.7%, rgba(24,0,0,1) 100.6% )', 'background-repeat': 'repeat'})
         } else if (count === 1) {
-            $('body').css({'background-image': 'url(https://i.imgur.com/vb36mNe.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
-        } else if (count === 2) {
             $('body').css({'background-image': 'url(https://i.imgur.com/E2senKS.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
-        } else if (count === 3) {
+        } else if (count === 2) {
             $('body').css({'background-image': 'url(https://i.imgur.com/EtWeF7h.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
+        } else if (count === 3) {
+            $('body').css({'background-image': 'url(https://i.imgur.com/vb36mNe.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
         } else if (count === 4) {
-            $('body').css({'background-image': 'url(https://i.imgur.com/lJkDriH.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
+            $('body').css({'background-image': 'url(https://i.imgur.com/PU1l8FN.png)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
         } else if (count === 5) {
-            $('body').css({'background-image': 'url(https://i.imgur.com/LXHzMBa.png)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
+            $('body').css({'background-image': 'url(https://i.imgur.com/cBc8fVd.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
         } else if (count === 6) {
-            $('body').css({'background-image': 'url(https://i.imgur.com/XEOtEKZ.png)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
+            $('body').css({'background-image': 'url(https://i.imgur.com/7aY3JWF.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
         } else if (count === 7) {
-            $('body').css({'background-image': 'url(https://i.imgur.com/Qr5gstI.jpg?1)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
+            $('body').css({'background-image': 'url(https://i.imgur.com/EifZwXZ.png)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
         } else if (count === 8) {
             $('body').css({'background-image': 'url(https://i.imgur.com/iHQgp7W.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
         } else if (count === 9) {
@@ -6249,6 +6253,7 @@ body {
 </script>
 
 <body>
+
 <!-- partial:index.partial.html -->
 
           <!--LOGO -->
