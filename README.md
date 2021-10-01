@@ -6209,7 +6209,7 @@ body {
 </head>
 
 <body>
-<a class="but" href="#" onclick="Bgs()">Mudar Fundo</a>
+<a class="but" href="#" onclick="Bgs()">𝙈𝙪𝙙𝙖𝙧 𝙁𝙪𝙣𝙙𝙤👌</a>
 </body>
 
 </html>
