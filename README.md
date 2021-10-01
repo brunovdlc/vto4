@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Pure CSS Particle Animation</title>
+  <title>BrunoT  - VTO </title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Josefin+Slab:100'>
     <style>* {
@@ -6219,7 +6219,7 @@ body {
   </div>
   <div class="circle-container">
     <div class="circle"></div>
-    
+
 <!-- partial -->
   
 </body>
