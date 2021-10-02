@@ -6237,11 +6237,11 @@ body {
         } else if (count === 5) {
             $('body').css({'background-image': 'url(https://i.imgur.com/cBc8fVd.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
         } else if (count === 6) {
-            $('body').css({'background-image': 'url(https://i.imgur.com/7aY3JWF.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
+            $('body').css({'background-image': 'url(https://i.imgur.com/3x3JlOE.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
         } else if (count === 7) {
             $('body').css({'background-image': 'url(https://i.imgur.com/EifZwXZ.png)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
         } else if (count === 8) {
-            $('body').css({'background-image': 'url(https://i.imgur.com/iHQgp7W.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
+            $('body').css({'background-image': 'url(https://i.imgur.com/fly67JG.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
         } else if (count === 9) {
             $('body').css({'background-image': 'linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5%', 'background-repeat': 'repeat'});
         }
