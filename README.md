@@ -6161,7 +6161,7 @@ body {
 
 <style>
 body {
-    background-image: url(https://i.imgur.com/PU1l8FN.png);
+    background-image: url(https://i.imgur.com/NQVDQby.png);
 }
 
 .but {
