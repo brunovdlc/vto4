@@ -6161,7 +6161,7 @@ body {
 
 <style>
 body {
-    background-image: url(https://i.imgur.com/fly67JG.jpg);
+    background-image: url(https://i.imgur.com/z11dmlw.png);
 }
 
 .but {
@@ -6258,7 +6258,7 @@ body {
         } else if (count === 16) {
             $('body').css({'background-image': 'url(https://i.imgur.com/LO3dwKf.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
         } else if (count === 17) {
-            $('body').css({'background-image': 'url(https://i.imgur.com/C3nlP8C.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
+            $('body').css({'background-image': 'url(https://i.imgur.com/fly67JG.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
         } else if (count === 18) {
             $('body').css({'background-image': 'url(https://i.imgur.com/Xkjzd9L.jpg)', 'background-repeat': 'no-repeat', 'background-size': '100%'});
         } else if (count === 19) {
