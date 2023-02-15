@@ -1,1 +1,328 @@
 
+
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+  
+  <link rel="apple-touch-icon" type="image/png" href="https://u.cubeupload.com/BrunoT/divertido.png" />
+
+  <meta name="apple-mobile-web-app-title" content="Bruno">
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://u.cubeupload.com/BrunoT/divertido.png" />
+
+  <link rel="mask-icon" type="image/x-icon" href="https://u.cubeupload.com/BrunoT/divertido.png" color="#111" />
+
+
+  
+  <title>BrunoT</title>
+  
+  <head>
+  
+  <style>
+    body {
+      background-color: #000000;
+    }
+  </style>
+</head>
+  
+  <head>
+  <title></title>
+  <style>
+    .cor-destacada {
+      color: #ffffff;
+    }
+  </style>
+</head>
+
+  
+<style>
+div.conteudo {
+  font-family: 'Anton', sans-serif;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.divisor{
+  margin-top: 10px;
+  opacity: 0.3;
+}
+
+div.pais img {
+  margin: 0 0 10px 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 3vw;
+  text-align: center;
+}
+
+div.pais.alianca img {
+  width: 70px;
+  height: 70px;
+   margin: 0 15px 0 15px;
+}
+
+div.filho img {
+  margin: 20px 20px 10px 20px; 
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 3vw;
+  text-align: center;
+}
+div .filho .son {
+    width: 140px;
+    height: 140px;
+}
+
+.figure {
+  display: inline-block;
+  width: 5%;
+  text-align: center;
+  border: none;
+}
+
+.figure.botao {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.figure.botao img{
+    padding: 1px 1px 1px 1px;
+}
+.figure.botao :hover{
+    cursor: pointer;
+}
+
+.legenda{
+  align-items: center;
+  display: flex;
+  flex-direction: column; 
+}
+
+.father {
+   background-color: #A9D0F5;
+}
+
+.mother {
+  background-color: #DA81F5;
+}
+
+.son {
+  background-color: #fff;
+}
+
+.divfilho{
+    margin-left:5%;
+}
+
+ .painel-animado {
+    -moz-transition:transform 0.8s;
+    -webkit-transition:transform 0.8s;
+    -ms-transition:transform 0.8s;
+    -o-transition:transform 0.8s;
+    transition:transform 0.8s;
+}
+
+.painel-animado.ng-leave-active {
+  -moz-transform: scale(0.1);
+  -webkit-transform: scale(0.1);
+  -ms-transform: scale(0.1);
+  -o-transform: scale(0.1);
+  transform: scale(0.1);
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" >
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+</head>
+<body ng-app="MyApp" ng-cloak>
+    <div class="main" ng-controller="genealogyController">
+        <div class="conteudo">
+            <div class="pais">
+              <img src="{{pai.foto}}" class="father" />
+              <label class="legenda"><body>
+  <p><span class="cor-destacada">Bender</span>.</p>
+</body></label>
+            </div>
+
+            <div class="pais alianca">
+              <img src="https://icon-icons.com/icons2/545/PNG/512/ring-heart_icon-icons.com_53218.png" width="40" height="40">
+              <label class="legenda"><body>
+  <p><span class="cor-destacada">Casados</span>.</p>
+</body></label>
+            </div>
+
+            <div class="pais">
+                <img src="https://u.cubeupload.com/BrunoT/Screenshot8removebgp.png" class="mother" />
+                <label class="legenda"><body>
+  <p><span class="cor-destacada">Angie</span>.</p>
+</body></label>
+            </div>
+        </div>
+
+        <div class="conteudo divisor" ng-show="filhos.length">
+            <div class=figure>
+              <img src="https://u.cubeupload.com/BrunoT/pngegg.png" width="90" height="90">
+              <label><body>
+  <p><span class="cor-destacada">Benção</span>.</p>
+</body></label>
+            </div>
+        </div>
+        <div class="conteudo" ng-show="!filhos.length">
+            <div class=figure ng-click="adicionarFilho()">
+                <img src="https://www.shareicon.net/data/512x512/2016/08/18/809318_add_512x512.png" width="80%" height="80%">
+                <label>Adicionar Filhos</label>
+            </div>
+        </div>
+        <div class="conteudo divfilho" ng-if="filhos.length">
+            <div class="filho" ng-repeat="filho in filhos">
+              <img src="{{filho.foto}}" class="son"/>
+              <label class="legenda">{{filho.nome}}</label>
+            </div>  
+            <div class="figure botao">
+              <img src="https://www.shareicon.net/data/512x512/2016/08/18/809318_add_512x512.png" ng-click="adicionarFilho()" width="30" height="30">
+              <img src="https://www.shareicon.net/download/2016/07/07/792199_mathematics_512x512.png" ng-click="removeFilho()" width="30" height="30">
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.6/angular.js'></script>
+      <script id="rendered-js" >
+angular.module("MyApp", []).
+controller("genealogyController", ['$scope', '$http', 'genelogyFactory', function ($scope, $http, genelogyFactory) {
+  var pai = {
+    foto: 'https://cdn0.iconfinder.com/data/icons/avatars-3/512/avatar_hipster_guy-512.png',
+    nome: 'Homem' };
+
+
+  var mae = {
+    foto: 'https://u.cubeupload.com/BrunoT/Screenshot8removebgp.png',
+    nome: 'Mulher' };
+
+
+  var filho = [
+  {
+    foto: 'https://u.cubeupload.com/BrunoT/Screenshot9removebgp.png',
+    nome: 'Filho' },
+
+  {
+    foto: 'https://u.cubeupload.com/BrunoT/Screenshot9removebgp.png',
+    nome: 'Filho' },
+
+	  {
+    foto: 'https://u.cubeupload.com/BrunoT/Screenshot9removebgp.png',
+    nome: 'Filho' },
+	  
+  {
+    foto: 'https://u.cubeupload.com/BrunoT/Screenshot9removebgp.png',
+    nome: 'Filho' }];
+
+
+
+  genelogyFactory.setPai(pai);
+  genelogyFactory.setMae(mae);
+  genelogyFactory.setFilhos(filho);
+
+  $scope.pai = genelogyFactory.getPai();
+  $scope.mae = genelogyFactory.getMae();
+  $scope.filhos = genelogyFactory.getFilhos();
+
+  $scope.adicionarFilho = function () {
+    var fil =
+    {
+      foto: 'https://u.cubeupload.com/BrunoT/Screenshot9removebgp.png',
+    nome: 'Filho',
+      nome: 'Filho' };
+
+
+    genelogyFactory.addFilhos(fil);
+  };
+
+  $scope.removeFilho = function () {
+    genelogyFactory.removeFilhos();
+  };
+
+}]).
+factory('genelogyFactory', [function () {
+  var _pai = {};
+  var _mae = {};
+  var _filhos = [];
+
+  function _setPai(pai) {
+    _pai = pai;
+  }
+
+  function _getPai() {
+    return _pai;
+  }
+
+  function _setMae(mae) {
+    _mae = mae;
+  }
+
+  function _getMae() {
+    return _mae;
+  }
+
+  function _setFilhos(filhos) {
+    _filhos = filhos;
+  }
+
+  function _getFilhos() {
+    return _filhos;
+  }
+
+  function _addFilhos(filho) {
+    _filhos.push(filho);
+  }
+
+  function _removeFilhos() {
+    _filhos.splice(0, 1);
+  }
+  return {
+    setPai: _setPai,
+    getPai: _getPai,
+    setMae: _setMae,
+    getMae: _getMae,
+    setFilhos: _setFilhos,
+    getFilhos: _getFilhos,
+    addFilhos: _addFilhos,
+    removeFilhos: _removeFilhos };
+
+
+}]);
+//# sourceURL=pen.js
+    </script>
+
+  
+
+</body>
+
+</html>
+ 
