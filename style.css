@@ -95,7 +95,7 @@ body input, body h1, body h3, body a, body span {
 #app.logged-out #sign-in-button-wrapper {
   opacity: 1;
   pointer-events: all;
-  transform: translate(-50%, -40px);
+  transform: translate(-50%, -440px);
 }
 #app.logging-in #app-background #app-background-image, #app.verifying-log-in #app-background #app-background-image, #app.log-in-error #app-background #app-background-image {
   filter: blur(8px);
